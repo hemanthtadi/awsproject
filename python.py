@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Database configuration - UPDATED CREDENTIALS
 DB_CONFIG = {
-    'host': 'coupon-db.c7i4sqkq8oou.',  # ← UPDATED ENDPOINT
+     'host': 'coupon-db.c7i4sqkq8oou.eu-west-1.rds.amazonaws.com',  # ← UPDATED ENDPOINT
     'user': 'admin', 
     'password': '705ne95KwXiGWYYHTw3T',  # ← UPDATED PASSWORD
     'database': 'coupon_db',
